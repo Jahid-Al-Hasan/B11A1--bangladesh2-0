@@ -3,9 +3,16 @@
   padding: 0;
 }
 body {
-  /* max-width: 1440px; */
-  /* margin: 0 auto; */
+  max-width: 1440px;
+  margin: 0 auto;
   background-color: #f1f1f3;
+}
+
+/* shared style */
+button:hover {
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+  transform: scale(1.05);
+  transition: background-color 0.2s, transform 0.2s;
 }
 /* font */
 .fira-sans-regular {
@@ -118,6 +125,8 @@ section {
   border: none;
   border-radius: 8px;
   background-color: #5490f5;
+  font-size: 600 16px;
+  color: white;
 }
 .vision-1 button:hover {
   padding: 11px 20px;
@@ -125,6 +134,8 @@ section {
   border-radius: 8px;
   background-color: #548ff5de;
   cursor: pointer;
+  font-size: 600 16px;
+  color: white;
 }
 
 .vision-2 button {
@@ -132,6 +143,8 @@ section {
   border: none;
   border-radius: 8px;
   background-color: #09a15c;
+  font-size: 600 16px;
+  color: white;
 }
 .vision-2 button:hover {
   padding: 11px 20px;
@@ -139,6 +152,8 @@ section {
   border-radius: 8px;
   background-color: #09a15dda;
   cursor: pointer;
+  font-size: 600 16px;
+  color: white;
 }
 
 .vision-3 button {
@@ -146,12 +161,16 @@ section {
   border: none;
   border-radius: 8px;
   background-color: #ffc239;
+  font-size: 600 16px;
+  color: white;
 }
 .vision-3 button:hover {
   padding: 11px 20px;
   border: none;
   border-radius: 8px;
   background-color: #ffc439dc;
+  font-size: 600 16px;
+  color: white;
   cursor: pointer;
 }
 
@@ -267,6 +286,15 @@ section {
   font-weight: 700;
   color: rgba(14, 14, 14, 0.8);
 }
+.btn-taka:hover {
+  padding: 40px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background-color: #03f584;
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.8);
+}
 .btn-colored {
   background-color: #c6e4d6;
 }
@@ -284,6 +312,9 @@ section {
   text-align: center;
   width: 1000px;
   margin-bottom: 32px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.3);
 }
 .donation form button {
   font-size: 18px;
