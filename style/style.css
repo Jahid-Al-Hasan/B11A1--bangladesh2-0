@@ -231,3 +231,66 @@ section {
   border: none;
   cursor: pointer;
 }
+
+/* donation section */
+.donation {
+  text-align: center;
+}
+.donation h1 {
+  font: bold 40px;
+  color: #0e0e0e;
+}
+.donation p {
+  padding: 0 100px;
+  margin-top: 24px;
+  font: 400 16px;
+  color: rgba(14, 14, 14, 0.7);
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.taka-container {
+  margin: 32px auto;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  /* align-items: center; */
+  text-align: center;
+
+  /* flex-wrap: wrap; */
+}
+.btn-taka {
+  padding: 40px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background-color: white;
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.8);
+}
+.btn-colored {
+  background-color: #c6e4d6;
+}
+.donation form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.donation input {
+  padding: 20px 40px;
+  background-color: #ffffff;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  display: block;
+  text-align: center;
+  width: 1000px;
+  margin-bottom: 32px;
+}
+.donation form button {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  padding: 17px 34px;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  background-color: #006a50;
+}
