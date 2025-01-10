@@ -294,3 +294,73 @@ section {
   border-radius: 8px;
   background-color: #006a50;
 }
+.donation form button:hover {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  padding: 17px 34px;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  background-color: #006a50d8;
+  cursor: pointer;
+}
+
+/* newsletter section */
+.newsletter {
+  padding: 80px 100px;
+  border: 1px solid black;
+  border-radius: 24px;
+  background-color: #c6e4d6;
+  text-align: center;
+}
+.newsletter h2 {
+  font: bold 40px;
+  color: #0e0e0e;
+}
+.newsletter p {
+  font: 400 16px;
+  color: rgba(14, 14, 14, 0.7);
+  margin: 16px 0 24px;
+  line-height: 24px;
+}
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+  margin-bottom: 25px;
+}
+.newsletter-form input {
+  width: 600px;
+  border-radius: 8px 0 0 8px;
+  padding: 18px 40px;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.3);
+  border: none;
+}
+.newsletter-form button {
+  width: 150px;
+  border-radius: 0 8px 8px 0;
+  padding: 17px 34px;
+  background-color: #006a50;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  border: none;
+}
+.newsletter-form button:hover {
+  width: 150px;
+  border-radius: 0 8px 8px 0;
+  padding: 17px 34px;
+  background-color: #006a50dc;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.newsletter .p-2 {
+  line-height: normal;
+}
