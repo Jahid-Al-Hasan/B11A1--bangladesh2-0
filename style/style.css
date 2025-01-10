@@ -5,6 +5,7 @@
 body {
   /* max-width: 1440px; */
   /* margin: 0 auto; */
+  background-color: #f1f1f3;
 }
 /* font */
 .fira-sans-regular {
@@ -56,5 +57,99 @@ nav {
   background-color: #006a50de;
   border-radius: 8px;
   border: none;
+  cursor: pointer;
+}
+
+/* ------- main section ------- */
+section {
+  margin: 80px auto;
+}
+/* vision */
+.vision-container > div > h1 {
+}
+.vision-container > div > p {
+  margin: 24px auto 32px;
+}
+.visions {
+  display: flex;
+  gap: 24px;
+}
+.visions > div {
+  padding: 32px;
+  border: none;
+  border-radius: 16px;
+}
+.vision-1 {
+  background-color: rgba(84, 144, 245, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.vision-2 {
+  background-color: #c6e4d6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.vision-3 {
+  background-color: #f7ebcf;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.visions h3 {
+  margin: 24px auto 12px;
+  font: bold 20px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.visions p {
+  margin-bottom: 24px;
+  font: 400 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.vision-1 button {
+  padding: 11px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #5490f5;
+}
+.vision-1 button:hover {
+  padding: 11px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #548ff5de;
+  cursor: pointer;
+}
+
+.vision-2 button {
+  padding: 11px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #09a15c;
+}
+.vision-2 button:hover {
+  padding: 11px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #09a15dda;
+  cursor: pointer;
+}
+
+.vision-3 button {
+  padding: 11px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ffc239;
+}
+.vision-3 button:hover {
+  padding: 11px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ffc439dc;
   cursor: pointer;
 }
