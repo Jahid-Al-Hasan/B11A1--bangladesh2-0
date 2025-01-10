@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* max-width: 1440px; */
+  /* margin: 0 auto; */
+}
+/* font */
+.fira-sans-regular {
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* header */
+header,
+main {
+  margin: 0 160px 80px;
+}
+/* nav */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 24px auto;
+}
+.banner {
+  background-color: #c6e4d6;
+  padding: 80px 100px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 64px;
+}
+.banner-left h4 {
+  font: 400 24px;
+  color: rgba(14, 14, 14, 0.5);
+}
+.banner-left h1 {
+  margin: 16px auto 24px;
+  font: 700 56px;
+  color: #0e0e0e;
+}
+.banner-btn {
+  padding: 17px 34px;
+  color: white;
+  background-color: #006a50;
+  border-radius: 8px;
+  border: none;
+}
+.banner-btn:hover {
+  padding: 17px 34px;
+  color: white;
+  background-color: #006a50de;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
